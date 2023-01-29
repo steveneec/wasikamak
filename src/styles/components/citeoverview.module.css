@@ -1,0 +1,47 @@
+.cite {
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.date {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  gap: 10px;
+  color: #7f8696;
+}
+
+.drname {
+  font-weight: 500;
+}
+
+.especialidad {
+  color: #7f8696;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 10px;
+  border-top: 1px solid #e9e9e9;
+  color: #4274ea;
+  transition: all 0.4s;
+}
+
+.options:hover {
+  cursor: pointer;
+  background-color: #dfe9ff;
+  transition: all 0.4s;
+}

@@ -1,0 +1,18 @@
+.action {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  scale: 1;
+  transition: all 0.4s;
+  width: min-content;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+.action:hover {
+  scale: 1.1;
+  transition: all 0.4s;
+  cursor: pointer;
+  background-color: #e5eeff;
+}

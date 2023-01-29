@@ -1,0 +1,17 @@
+.layout {
+  display: grid;
+  grid-template-areas: "leftnav content";
+  grid-template-columns: 300px 1fr;
+  height: 100vh;
+  background-color: #fafbfd;
+  overflow: hidden;
+}
+
+.content {
+  overflow: auto;
+}
+
+.content .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}

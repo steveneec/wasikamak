@@ -1,0 +1,32 @@
+.leftNav {
+  background-color: white;
+  box-shadow: 0 0 5px #adadad;
+}
+
+.navOption {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 20px;
+  gap: 20px;
+  align-items: center;
+  background-color: white;
+  height: 100%;
+}
+
+.navOption:hover {
+  background-color: #e1f5fe;
+  cursor: pointer;
+  border-right: 5px solid #4274ea;
+}
+
+.navOptionActive {
+  border-right: 5px solid #4274ea;
+}
+
+.logo {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}

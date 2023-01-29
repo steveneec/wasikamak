@@ -1,0 +1,91 @@
+.content {
+  padding: 0 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.agendado {
+  padding: 0 5px;
+  background-color: #43a047;
+  border-radius: 10px;
+  color: white;
+}
+
+.ejecutado {
+  padding: 0 5px;
+  background-color: #e57373;
+  border-radius: 10px;
+  color: white;
+}
+
+.citaRow {
+  padding: 10px 20px;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 5px;
+}
+
+.citaRow:hover {
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.chips {
+  display: grid;
+  grid-template-columns: 160px 160px auto;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.chip {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.chip small {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.cardbody {
+  padding: 20px;
+}
+
+.cardOptions {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.cardOptions button {
+  padding: 5px 10px;
+  border: none;
+  font-family: Poppins, sans-serif;
+  border-radius: 5px;
+}
+
+.cardOptions button:first-child {
+  background-color: #ffcdd2;
+  color: #c62828;
+}
+
+.cardOptions button:first-child:hover {
+  background-color: #e57373;
+  color: white;
+  cursor: pointer;
+}
+
+.cardOptions button:nth-child(2) {
+  background-color: #1e88e5;
+  color: white;
+}
+
+.cardOptions button:nth-child(2):hover {
+  background-color: #1976d2;
+  cursor: pointer;
+}

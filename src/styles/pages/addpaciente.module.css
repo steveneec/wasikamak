@@ -1,0 +1,65 @@
+.cardbody {
+  padding: 20px;
+}
+
+.content {
+  padding: 0 40px 40px 40px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 1200px) {
+  .content {
+    display: grid;
+    margin: 0 auto;
+    align-items: flex-start;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacts {
+  margin-top: 10px;
+}
+
+.cardOptions {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.cardOptions button {
+  padding: 5px 10px;
+  border: none;
+  font-family: Poppins, sans-serif;
+  border-radius: 5px;
+}
+
+.cardOptions button:first-child {
+  background-color: #ffcdd2;
+  color: #c62828;
+}
+
+.cardOptions button:first-child:hover {
+  background-color: #e57373;
+  color: white;
+  cursor: pointer;
+}
+
+.cardOptions button:nth-child(2) {
+  background-color: #1e88e5;
+  color: white;
+}
+
+.cardOptions button:nth-child(2):hover {
+  background-color: #1976d2;
+  cursor: pointer;
+}

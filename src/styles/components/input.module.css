@@ -1,0 +1,27 @@
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input input {
+  border: 1px solid #cfd8dc;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  background-color: white;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+}
+
+.input label {
+  margin-bottom: 5px;
+}
+
+.input small {
+  margin-top: 5px;
+}
+
+.input label small {
+  color: red;
+  margin-left: 5px;
+}

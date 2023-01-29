@@ -1,0 +1,28 @@
+.layout {
+  display: grid;
+  grid-template-areas: "header header header" "title title title" "content content content";
+  grid-template-columns: repeat(3, 1fr);
+  padding: 40px;
+  padding-top: 60px;
+  gap: 10px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: content;
+  gap: 10px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.greeting {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.sectionTitle {
+  margin-top: 20px;
+}

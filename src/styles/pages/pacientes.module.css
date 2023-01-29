@@ -1,0 +1,35 @@
+.pacienteRow {
+  padding: 5px 20px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.pacienteRow:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+.prContent {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.chips {
+  display: grid;
+  grid-template-columns: 100px auto;
+  gap: 10px;
+}
+
+.chip {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 5px;
+  align-items: center;
+  justify-content: start;
+}
+
+.content {
+  padding: 0 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
